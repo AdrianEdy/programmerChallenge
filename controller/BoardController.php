@@ -53,7 +53,8 @@
         }
 
         public function create()
-        {           
+        {          
+            // get input from user 
             $request = [
                 'title'    => get_post('title'),
                 'message'  => get_post('message'),
@@ -61,6 +62,7 @@
                 'password' => get_post('password')
             ];
             
+            // validate the input
             $validate            = new BoardValidation();
             $errorInput          = $validate->validatePost($request);
             $errorImage          = $validate->validateFile('image', [$request['image']]);
