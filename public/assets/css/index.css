@@ -1,0 +1,44 @@
+textarea, .text{
+    border: 1px solid black;
+    width: 500px;
+    text-align: left;
+    align-self: auto;
+}
+
+textarea{
+    height: 200px;
+}
+
+.button{
+    text-align: center;
+}
+
+.container{
+    width : 100%;
+    height: auto;
+    text-align: center;
+}
+
+.content{
+    width: 500px;
+    margin: auto;
+}
+
+.pagination-item {
+    padding : 3px;
+    border : 1px solid black;
+    margin : 0 3px 0 3px;
+}
+
+.active {
+    background-color : gray;
+    color : black;
+}
+
+.posts{
+    margin-top: 50px;
+}
+
+.error{
+    color: red;
+}
